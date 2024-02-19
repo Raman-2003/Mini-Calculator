@@ -1,0 +1,107 @@
+#box{
+    background-color: #BFBFBF;
+    height: 600px;
+}
+
+.head{
+    
+        font-family: "Anta", sans-serif;
+        font-weight: 400;
+        color:#127369 ;
+        margin-left: 50px;
+        top: 20px;
+        position: absolute;
+        
+}
+
+#first{
+    font-family: "Teko", sans-serif;
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    left: 15px;
+    top: 110px;
+
+}
+
+#second{
+    font-family: "Teko", sans-serif;
+    position: absolute;
+    font-size: 15px;
+  font-weight: bold;
+    left: 10px;
+    top: 160px;
+}
+
+#one{
+    position: absolute;
+    left: 125px;
+    top: 110px;
+}
+
+
+#two{
+    position: absolute;
+    left: 125px;
+    top: 160px;
+}
+
+.btn1{
+    position: absolute;
+    width: 63px;
+    font-weight: bolder;
+    left: 50px;
+    top: 220px;
+
+}
+
+.btn1:active{
+    background-color: darkcyan;
+}
+
+.btn2{
+    position: absolute;
+    right: 90px;
+    width: 63px;
+    font-weight: bolder;
+    top: 220px;
+}
+
+.btn2:active{
+    background-color: darkcyan;
+}
+
+.btn3{
+    position: absolute;
+    left: 50px;
+    width: 63px;
+    font-weight: bolder;
+    top: 270px;
+}
+
+
+.btn3:active{
+    background-color: darkcyan;
+}
+.btn4{
+    position: absolute;
+    right: 90px;
+    width: 63px;
+    font-weight: bolder;
+    top: 270px;
+}
+
+.btn4:active{
+    background-color: darkcyan;
+}
+
+#res{
+    position: absolute;
+    top: 310px;
+    font-family: "Oleo Script", system-ui;
+    font-weight: bolder;
+    color:#253659 ;
+    font-size: 22px;
+    left: 80px;
+
+}

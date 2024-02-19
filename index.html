@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Calculator</title>
+   
+    <!-- link style sheet  -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- link favicon Icon  -->
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/000/493/812/original/vector-calculator-icon-design.jpg" type="image/x-icon">
+
+    <!-- Anta font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+   <div id="box">
+
+    <h1 class="head">Mini Calculator</h1>
+   
+    <label id="first">First Number</label>
+    <input type="text" id="one">
+   
+    <br><br>
+   
+    <label id="second">Second number</label>
+    <input type="text" id="two">
+     
+    <br><br>
+   
+    <button onclick="add()" class="btn1">+</button> 
+    <button onclick="sub()" class="btn2">--</button>
+    <button onclick="multi()" class="btn3">×</button>
+    <button onclick="divide()" class="btn4">÷</button>
+
+    <p id="res">Result</p>
+
+   
+   
+   <script>
+
+     var num1=document.getElementById("one")
+     var num2=document.getElementById("two")
+     var final=document.getElementById("res")
+
+     function add(){
+        var firstF=Number(num1.value)
+        var LastF=Number(num2.value)
+       
+        var total=firstF+LastF
+       
+        final.textContent='Answer is '+ total
+         
+    }
+
+    function sub(){
+        var firstF=Number(num1.value)
+        var LastF=Number(num2.value)
+       
+        var total=firstF-LastF
+       
+        final.textContent='Answer is '+ total
+         
+    }
+
+    function multi(){
+        var firstF=Number(num1.value)
+        var LastF=Number(num2.value)
+       
+        var total=firstF*LastF
+       
+        final.textContent='Answer is '+ total
+         
+    }
+
+    function divide(){
+        var firstF=Number(num1.value)
+        var LastF=Number(num2.value)
+       
+        var total=firstF/LastF
+       
+        final.textContent='Answer is '+ total.toFixed(3)
+         
+    }
+
+
+
+
+
+
+    </script>
+</div>
+</body>
+</html>
